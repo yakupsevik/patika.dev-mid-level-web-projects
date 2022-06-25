@@ -2,6 +2,21 @@
 
 Get user data from Fake Data API with using axios and async functions.
 
+<br>
+
+
+#
+
+<br>
+
+<img src="./Screenshot.png"/>
+
+<br>
+
+#
+
+<br>
+
 ## Project setup
 
 ```
