@@ -1,7 +1,7 @@
 {
   "name": "assignment-1",
   "version": "1.0.0",
-  "description": "Get user data from Fake Data API with using axios and async functions.",
+  "description": "Get user and posts datas from Fake Data API with using axios and async functions.",
   "main": "app.js",
   "type": "module",
   "scripts": {
