@@ -1,5 +1,7 @@
 # Assignment 1
 
+<br>
+
 Get user and posts datas from Fake Data API with using axios and async functions.
 
 <br>
