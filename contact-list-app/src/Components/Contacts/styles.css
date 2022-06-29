@@ -1,0 +1,117 @@
+#container {
+  width: 400px;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 10px;
+
+  text-align: center;
+
+  border-radius: 10px;
+  margin: 10px;
+
+  background-color: burlywood;
+  box-shadow: rgba(222, 184, 135, 0.8) 0px 0px 10px 0px;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  min-width: 250px;
+  width: 100%;
+  padding: 5px;
+
+  border: none;
+
+  border-radius: 2px;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  transition: 300ms all;
+
+  color: #fff;
+  background-color: #000;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  color: #fff;
+  border-radius: 6px;
+  box-shadow: rgba(44, 44, 44, 0.2) 0px 2px 10px 0px;
+}
+
+input:hover {
+  border-radius: 6px;
+  box-shadow: rgba(44, 44, 44, 0.2) 0px 2px 10px 0px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+button {
+  border: none;
+  width: 80px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: antiquewhite;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+button:hover {
+  border-radius: 6px;
+  box-shadow: rgba(44, 44, 44, 0.2) 0px 2px 10px 0px;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: antiquewhite;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: 300ms all;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list > li:hover {
+  background-color: rgb(44, 44, 44);
+  box-shadow: rgba(44, 44, 44, 0.2) 0px 0px 10px 0px;
+  color: #fff;
+}
+
+.list > li .delete-button {
+  color: rgb(255, 0, 0);
+  transition: 300ms all;
+}
+
+.list > li:hover > .delete-button {
+  color: burlywood;
+}
+
+.form input {
+  margin-bottom: 15px;
+}
